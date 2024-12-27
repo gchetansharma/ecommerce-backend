@@ -1,7 +1,6 @@
 package com.gcs.ecommerce.entity;
 
 import jakarta.persistence.*;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,7 +10,7 @@ import java.util.Set;
 @Table(name = "product_category")
 @Getter
 @Setter
-public class ProdictCategory {
+public class ProductCategory {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
